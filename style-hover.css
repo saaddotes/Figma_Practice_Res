@@ -1,0 +1,63 @@
+.navbarbrand h3:hover {
+    font-size: 28px;
+    color: #6dc7fc;
+}
+
+ul>li>a>button:hover, .mainContainer div .bluebtn:hover {
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    border-color: #23A6F0;
+}
+
+
+ul>li>a:hover {
+    color: #23A6F0;
+}
+
+
+.mainContainer div button:hover {
+    color: #ffffff;
+    cursor: pointer;
+    border-color:#ffffff ;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px #69c6ff;
+}
+
+.card .iconTray:hover {
+    box-shadow: 0px 0px 10px #72612b;
+}
+
+
+.learnMore:hover {
+    background-color: #afd3e8;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.images div:hover {
+    background-color: #69c6ff;
+    cursor: pointer;
+}
+
+.ratting:hover {
+    box-shadow: 0px 0px 10px #72612b;
+    cursor: pointer;
+
+}
+
+
+.expertsDetails:hover {
+    box-shadow: 2px -2px 5px #23A6F0;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+
+}

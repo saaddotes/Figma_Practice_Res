@@ -1,0 +1,569 @@
+@media only screen and (max-width: 768px) {
+
+    header {
+        background-color: #252B42;
+        width: 100%;
+        /* padding: 0 3.688rem; */
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        width: 100%;
+        /* height: 5.688rem; */
+        color: #ffffff;
+
+        flex-direction: column;
+        /* Newly */
+    }
+
+
+    .navbarbrand {
+        width: 100%;
+    }
+
+
+    .navbarbrand h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 4rem;
+        letter-spacing: 0.0.00625rem;
+        text-align: left;
+        margin: auto;
+        text-align: center;
+
+
+        /* padding-top: 2rem; */
+    }
+
+
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        /* gap: 1.313rem; */
+        width: 100%;
+        /* flex-direction: column; */
+    }
+
+    li {
+        border: 1px solid #23A6F0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* padding-left: 2rem; */
+        text-align: center;
+        height: 2rem;
+    }
+
+    ul>li>a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        width: 100%;
+    }
+
+    ul>li>a>button {
+        background-color: #23A6F0;
+        color: #ffffff;
+        padding: 0.5rem 1rem;
+        border-radius: 0.313rem;
+
+    }
+
+
+    .specialist {
+        width: 60%;
+        align-items: end;
+    }
+
+    .specialist li {
+        height: 3rem;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+        /* height: 64.25rem; */
+        padding: 5rem 0px;
+        margin: auto;
+
+    }
+
+    .mainContainer {
+        padding: 2.5rem 0px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        gap: 2.5rem;
+
+    }
+
+    .mainContainer h5 {
+        font-size: 1rem;
+        line-height: 1.563rem;
+        color: #23A6F0;
+    }
+
+
+    .mainContainer h1 {
+        margin: auto;
+        font-size: 2.5rem;
+        /* line-height: 5rem; */
+        color: #ffffff;
+        text-align: center;
+        width: 95%;
+    }
+
+    .mainContainer h4 {
+        margin: auto;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        color: #ffffff;
+        text-align: center;
+        width: 90%;
+    }
+
+
+    .mainContainer div button {
+        width: 12.063rem;
+        height: 3.25rem;
+        padding: 15px 40px;
+        border-radius: 5px;
+        border: 1px solid #23A6F0;
+        color: #23A6F0;
+        background-color: transparent;
+    }
+
+    .mainContainer div .bluebtn {
+        background-color: #23A6F0;
+        color: #ffffff;
+    }
+
+
+    .cardtray {
+        display: flex;
+        flex-direction: column;
+        margin: 80px 5px;
+        /* justify-content: space-between; */
+        gap: 1.875rem;
+    }
+
+    .card {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 1.25rem;
+        width: 100%;
+        height: 18.25rem;
+        background-color: #ffffff;
+        padding: 35px 40px;
+    }
+
+
+    .card .iconTray {
+        display: inline;
+        background-color: #FFDCD1;
+        border-radius: 0.8rem;
+        padding: 22px 19px;
+        width: 10%;
+        height: 10%;
+
+    }
+
+    .spacer {
+        width: 50px;
+        height: 2px;
+        background-color: #E74040;
+    }
+
+    .card p {
+        color: #737373;
+    }
+
+
+    .container-2 {
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1.875rem;
+    }
+
+    .databox {
+        gap: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .databox h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .databox p {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        color: #737373;
+    }
+
+    .databox h6 {
+        color: #23A6F0;
+        display: inline;
+        text-align: center;
+        font-size: 1rem;
+        margin-right: 0.5rem;
+    }
+
+
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding: 60px 0px;
+    }
+
+
+    .content-3 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .content-3 h6 {
+        color: #23A6F0;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 1rem 0px;
+    }
+
+
+    .content-3 h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin: 1rem 0px;
+    }
+
+    .content-3 p {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        color: #737373;
+    }
+
+
+    .productTray {
+        display: flex;
+        justify-content: space-around;
+        gap: 2.5rem 0px;
+        flex-wrap: wrap;
+
+    }
+
+    .productTray>div{
+        padding: 2rem 4rem;
+        background-color: #e7e7e7;
+        border-radius: 1rem;
+    }
+
+
+    .product {
+        width: 14.875rem;
+        height: 18.75rem;
+    }
+
+
+    .saleTag {
+        display: inline-block;
+        position: relative;
+        border-radius: 0.188rem;
+        left: 1.25rem;
+        top: 2.5rem;
+        background-color: #E74040;
+        color: #ffffff;
+        padding: 0px 0.625rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+
+
+    .product>.images {
+        position: relative;
+        left: 3.125rem;
+        bottom: 3.75rem;
+        display: flex;
+        gap: 0.625rem;
+    }
+
+
+    .product>div>div {
+        background-color: white;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .productpreview div img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .productdetails {
+        display: flex;
+        margin-top: 1.5625rem;
+        padding: 1.5625rem 1.5625rem 2.1875rem 1.5625rem;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: flex-start;
+        width: 14.875rem;
+        height: 18.75rem;
+        flex-shrink: 0;
+        gap: 0.625rem;
+    }
+
+
+
+    .frame {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .productdetails h6 {
+        display: inline;
+        color: #23A6F0;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+
+    .productdetails p {
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.25rem;
+        color: #737373;
+        /* 142.857% */
+        letter-spacing: 0.0125rem;
+    }
+
+
+    .productdetails .ratting {
+        display: flex;
+        justify-content: space-between;
+        width: 3.125rem;
+        padding: 0.313rem;
+        border-radius: 1.25rem;
+        box-sizing: border-box;
+        height: 1.625rem;
+        background-color: #252B42;
+    }
+
+    .productdetails .ratting h6 {
+        font-size: 0.75rem;
+        line-height: 1rem;
+        color: #ffffff;
+        text-align: center;
+    }
+
+
+    .productdetails h5 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+
+    .salesCount {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 5.188rem;
+    }
+
+    .pricing {
+        display: flex;
+        justify-content: flex-start;
+        gap: 0.313rem;
+    }
+
+    .moreInfo {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.938rem 0px;
+    }
+
+
+    .moreInfo div {
+        display: flex;
+        align-items: center;
+        gap: 0.125rem;
+    }
+
+    .moreInfo p {
+        color: #737373;
+    }
+
+
+    .learnMore {
+        width: 8.821rem;
+        height: 2.75rem;
+        background-color: transparent;
+        padding: 0.625rem 1.25rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        border-radius: 2.313rem;
+        color: #23A6F0;
+        border-color: #23A6F0;
+        outline: none;
+        display: flex;
+        align-items: center;
+        gap: 0.625rem;
+    }
+
+
+
+
+
+
+    .expertsTray {
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+
+
+    .expertsDetails {
+        display: flex;
+        padding: 1.5625rem 1.5625rem 0rem 1.5625rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.94rem;
+    }
+
+
+    .expertsDetails img {
+        border-radius: 50%;
+    }
+
+
+    .expertsDetails p {
+        color: #737373;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.25rem;
+        /* 142.857% */
+        letter-spacing: 0.0125rem;
+        width: 20rem;
+    }
+
+
+
+    footer {
+        display: flex;
+        /* height: 21.125rem; */
+        padding: 2rem 1rem;
+        align-items: center;
+        background-color: #252B42;
+    }
+
+
+    .footerSub {
+        display: flex;
+        /* width: 14.875rem; */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5625rem;
+        flex-shrink: 0;
+    }
+
+
+    .footertray {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.875rem;
+    }
+
+
+    .footerSub h3 {
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2rem;
+        /* 133.333% */
+        letter-spacing: 0.00625rem;
+        color: #ffffff;
+    }
+
+
+    .footerSub p {
+        font-family: Montserrat;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.25rem;
+        /* 142.857% */
+        letter-spacing: 0.0125rem;
+        color: #ffffff;
+    }
+
+
+    .footerSub .socialMedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+    }
+
+
+
+    .copyright {
+        margin: auto;
+        display: flex;
+        /* width: 65.625rem; */
+        padding: 1.5625rem 0rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copyright h6 {
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5rem;
+        letter-spacing: 0.0125rem;
+    }
+
+
+    .sublinks {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.625rem;
+    }
+
+
+
+
+
+
+
+
+
+}
